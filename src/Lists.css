@@ -1,0 +1,31 @@
+.list {
+  background-color: pink;
+  width: 270px;
+  height: 0.8rem;
+  margin: 2rem auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+.line-through {
+  /* background-color: gray; */
+  /* position: absolute; */
+  /* top: 50%; */
+  /* left: 0%; */
+  /* transform: translateY(-50%);
+  width: 50%;
+  height: 3px; */
+  /* z-index: -1; */
+  /* transition: 0.3s ease; */
+  text-decoration: line-through;
+}
